@@ -3,7 +3,7 @@ import { h } from "preact"
 import { useCallback, useState } from "preact/hooks"
 import * as style from "./style.css"
 
-const sliderRange = 100
+const sliderRange = 2000
 const freqRange = sliderRange / 2
 const minFreq = randomMinFreq(freqRange)
 const maxFreq = minFreq + freqRange
